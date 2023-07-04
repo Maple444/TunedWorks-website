@@ -1,0 +1,41 @@
+/* This is where the website css will go */
+/* Add whatever */
+
+.home {
+    background-color: #131313;
+}
+
+.paragraph_text {
+    font-size: 15px;
+    color: black;
+    font-family: Arial;
+    margin: auto;
+    width: 60%
+}
+
+/* Headings */
+.heading_text {
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1.heading_text {
+  font-size: 30px
+}
+
+h2.heading_text {
+    font-size: 17px;
+}
+
+h4.heading_text {
+    margin-top: -1px;
+}
+
+/* Images */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
