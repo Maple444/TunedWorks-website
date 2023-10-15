@@ -1,2 +1,6 @@
-# Rotaries, my personal project
-My first website, and programming project outside of my classes as a whole. Going to be hosted on Neocities. Focused on showing users information about the rotary (or wankel) engine and its history, especially pertaining the the Mazda RX-7 and RX-8 lines of vehicles.
+# TunedWorks, a hobby project
+My first website and programming project outside of my classes as a whole. Hosted on neocities, and is just a hobby project. The site is focused on showing users information about famous JDM tuner cars and their history. 
+
+Originally called Rotaries, but the focus of the site has now been broadened to tuner cars as a whole.
+
+> Last updated 10/15/23
