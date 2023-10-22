@@ -60,4 +60,51 @@ img {
     width: 50%;
 }
 
+
+/* Tabs */
+.tabs-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .tabs {
+    display: flex;
+  }
+  
+  .tab {
+    position: relative;
+    margin: 0 10px;
+  }
+  
+  input {
+    display: none;
+  }
+  
+  label {
+    display: block;
+    padding: 10px 20px;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .tab-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s;
+  }
+  
+  input:checked + label {
+    background: #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+  }
+  
+  input:checked ~ .tab-content {
+    max-height: 1000px; /* Whatever you like, as long as it's higher than the content */
+    overflow: visible;
+  }
+  
+
 /* Other code */
