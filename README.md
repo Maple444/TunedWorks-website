@@ -3,4 +3,4 @@ My first website and programming project outside of my classes as a whole. Hoste
 
 Originally called Rotaries, but the focus of the site has now been broadened to tuner cars as a whole.
 
-> Last updated 10/15/23
+> README.md last updated 10/15/23
