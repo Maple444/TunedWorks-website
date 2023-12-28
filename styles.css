@@ -10,7 +10,7 @@
 
 /* Headings */
 .heading_text {
-    color: rgb(199, 128, 70);
+    color: #C78046;
     font-family: 'kanit', sans-serif;
     text-align: center;
 }
@@ -30,12 +30,6 @@ h2.heading_text {
     font-size: 17px;
 }
 
-h4.heading_text {
-    margin-top: -1px;
-}
-
-
-
 
 /* Text & content */
 .content {
@@ -51,6 +45,13 @@ h4.heading_text {
     width: 100%
 }
 
+.caption {
+  margin-top: 5px;
+  color: #893a0f;
+  font-family: 'kanit', sans-serif;
+  text-align: center;
+}
+
 
 /* Images */
 img {
@@ -58,6 +59,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding: 15px;
 }
 
 
@@ -71,6 +73,8 @@ img {
   flex-wrap: wrap; /* Required along with the above element. Makes the tabs "wrap around" correctly */
   max-width: auto;
   font-family: 'kanit', sans-serif;
+
+  justify-content: center;
 }
 
 .tabs__label {
@@ -79,6 +83,9 @@ img {
   font-size: 18px;
   background: #f2f2f2;
   font-style: italic;
+
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .tabs__radio {
