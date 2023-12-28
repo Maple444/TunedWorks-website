@@ -69,7 +69,7 @@ img {
 .tabs {
   display: flex; /* Allows for tab labels to be on the top and content on the bottom */
   flex-wrap: wrap; /* Required along with the above element. Makes the tabs "wrap around" correctly */
-  max-width: 400px;
+  max-width: auto;
   font-family: 'kanit', sans-serif;
 }
 
@@ -82,7 +82,7 @@ img {
 }
 
 .tabs__radio {
-  /* display: none; Stops radio button from being visually shown */
+   display: none; /* Stops radio button from being visually shown */
 }
 
 .tabs__content {
@@ -99,4 +99,10 @@ img {
   font-weight: bold;
   color: #893a0f;
   border-bottom: 3px solid #893a0f;
+}
+
+.tabs__radio:checked+.tabs__label+.tabs__content { /* Finds the checked radio button, then particular label, and finally the content */
+  /* Customizes the look of a SELECTED tab */
+  display: intial; /* Could also use block */
+  /* ****NOT WORKING CURRENTLY, fix later */
 }
