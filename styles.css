@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
-/* This is where the website css will go */
-/* Add whatever */
+/* Small notes may be found next to some lines. These are just notes I made to aid my 
+ * undertstanding as I learned more CSS while making this website. */
 
 .home {
     background-color: #d1d1d1;
@@ -61,50 +61,42 @@ img {
 }
 
 
-/* Tabs (Old) */
-.tabs-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .tabs {
-    display: flex;
-  }
-  
-  .tab {
-    position: relative;
-    margin: 0 10px;
-  }
-  
-  input {
-    display: none;
-  }
-  
-  label {
-    display: block;
-    padding: 10px 20px;
-    background: #f2f2f2;
-    border: 1px solid #ddd;
-    cursor: pointer;
-  }
-  
-  .tab-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.35s;
-  }
-  
-  input:checked + label {
-    background: #e9e9e9;
-    border-bottom: 1px solid #e9e9e9;
-  }
-  
-  input:checked ~ .tab-content {
-    max-height: 1000px; /* Whatever you like, as long as it's higher than the content */
-    overflow: visible;
-  }
-  
+/* New tabs */
+.body {
+  margin: 50px;
+}
 
-/* Other code */
+.tabs {
+  display: flex; /* Allows for tab labels to be on the top and content on the bottom */
+  flex-wrap: wrap; /* Required along with the above element. Makes the tabs "wrap around" correctly */
+  max-width: 400px;
+  font-family: 'kanit', sans-serif;
+}
+
+.tabs__label {
+  padding: 10px 16px; /* 10 top and bottom, 16 side to side */
+  cursor: pointer; /* Chnages cursor to a pointer hand */
+  font-size: 18px;
+  background: #f2f2f2;
+  font-style: italic;
+}
+
+.tabs__radio {
+  /* display: none; Stops radio button from being visually shown */
+}
+
+.tabs__content {
+  order: 1; /* Groups tabs with an order of 1 together. Makes the separation */
+  width: 100%;
+  border-bottom: 3px solid #893a0f; /* Doesn't display unless checked. See next CSS selector for details */ 
+  line-height: 1.5;
+  font-size: 15px;
+  display: none;
+}
+
+.tabs__radio:checked+.tabs__label { /* Finds the checked radio button, then particular label */
+  /* Customizes the look of a SELECTED tab */
+  font-weight: bold;
+  color: #893a0f;
+  border-bottom: 3px solid #893a0f;
+}
