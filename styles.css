@@ -64,7 +64,7 @@ img {
 }
 
 
-/* New tabs */
+/* Tabs */
 .body {
   margin: 50px;
 }
@@ -87,6 +87,10 @@ img {
 
   border-left: 1px solid black;
   border-right: 1px solid black;
+}
+
+.tabs__label a {
+  color: #893a0f;
 }
 
 .tabs__radio {
