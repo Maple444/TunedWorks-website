@@ -60,7 +60,11 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding: 15px;
+    /* padding: 15px; */
+    
+    border-style: solid;
+    border-radius: 3px;
+    border-color: black;
 }
 
 
