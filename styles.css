@@ -67,6 +67,12 @@ img {
     border-color: black;
 }
 
+.side_by_side_images
+{
+  display: flex;
+  justify-content: center;
+}
+
 #rotary_animation  /* ID selector */
 {
   width: 210px;
