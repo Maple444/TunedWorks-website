@@ -67,7 +67,7 @@ img {
     border-color: black;
 }
 
-.image-container {
+.hori-image-container {
   display: flex;
   justify-content: center; /* Center the images horizontally */
   gap: 10px; /* Add some space between the images */
