@@ -84,6 +84,17 @@ img {
 }
 
 
+@media (max-width: 768px) { /* EXPERIMENTAL: Media query to adjust images for smaller screens */
+  .image-container {
+      flex-direction: column; /* Stack images vertically on small screens */
+  }
+
+  .side_by_side_images {
+      max-width: 100%; /* Images take full width of the container on small screens */
+  }
+}
+
+
 /* Tabs */
 .body {
   margin: 50px;
