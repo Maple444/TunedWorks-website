@@ -37,6 +37,14 @@ h2.heading_text {
     padding-left: 15%; 
     padding-right: 15%;
     line-height: 1.5em;
+
+    /* Background changes for text */
+    background-color: #ffffff; /* Change this to your desired color */
+    padding: 20px; /* Adds space around the content inside the container */
+    margin: 20px 300px; /* Centers the container and adds space around it */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+    max-width: 90%; /* Ensures the content doesn't stretch too wide */
 }
 
 .paragraph_text {
