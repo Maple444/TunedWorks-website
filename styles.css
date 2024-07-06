@@ -58,6 +58,10 @@ footer {
   text-align: center;
 }
 
+body{
+  font-family: 'kanit', sans-serif;
+}
+
 
 /* Images */
 img {
