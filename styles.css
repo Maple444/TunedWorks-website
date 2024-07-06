@@ -42,7 +42,7 @@ h2.heading_text {
     background-color: #ffffff; /* Change this to your desired color */
     padding: 20px; /* Adds space around the content inside the container */
     margin: 20px 300px; /* Centers the container and adds space around it */
-    border-radius: 10px; /* Optional: adds rounded corners */
+    /* border-radius: 5px; Adds rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
     max-width: 90%; /* Ensures the content doesn't stretch too wide */
 }
@@ -81,6 +81,7 @@ img {
     border-style: solid;
     border-width: 4px;
     border-color: black;
+    border-radius: 5px;
 }
 
 .hori-image-container {
