@@ -82,6 +82,7 @@ img {
     border-width: 4px;
     border-color: black;
     border-radius: 5px;
+    object-fit: cover; /* Allows images to crop when they are too big for the container rather than compressing and squishing */
 }
 
 .hori-image-container {
